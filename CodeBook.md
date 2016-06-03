@@ -12,7 +12,7 @@ The following datasets were imported from the Samsung data:
 
 `activity_labels` were added to the `X_test` and `X_train` data on import
 `test` and `train` datasets were created with the first column as the subject, and a merge of the `y_test/train` and `activity_labels` dataset to describe the activity performed
-mean and standard deviation columns were extracted from the 'X_test/train' datasets and then added to the respective 'test/train' data
+mean and standard deviation columns were extracted from the 'X_test/train` datasets and then added to the respective 'test/train' data
 `test` and `train` were then `merged`
 
 to create the tidy dataset, `ddply` was applied on the first to rows to create means for the rest of the data
