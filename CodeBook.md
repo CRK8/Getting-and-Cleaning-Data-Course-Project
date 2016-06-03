@@ -1,7 +1,6 @@
 This is the code book for the "tidy.txt" dataset that will describe the variables, the data, and any transformations or work performed to clean up the data.
 
 The following datasets were imported from the Samsung data:
-
 features - list of types of sensor data created
 activity_labels - list of the 6 different exersizes and their corresponding factor
 X_test - sensor data from "test" observations
